@@ -3,11 +3,11 @@
 using BinaryBuilder, Pkg
 
 name = "libsvm"
-version = v"3.31.1"
+version = v"3.31.2"
 
 # Collection of sources required to complete build
 sources = [
-    GitSource("https://github.com/Leixb/libsvm.git", "f182f09609c96fe236ba6e5b47a915310dfd6d35"),
+    GitSource("https://github.com/Leixb/libsvm.git#max_iter", "77675b24c11472316e84ce5b4ce9851765309de5"),
     DirectorySource("./bundled"),
 ]
 
